@@ -82,9 +82,9 @@ NODE *read_poly(NODE *head)
     } while (ch !=0 );
     return head;
 }
-NODE *add_poly(NODE *h1, NODE *h2, NODE *h3)
+NODE *add_poly(NODE *h1, NODE *h2, NODE *h3)        //3 Seperate Linked lists are passed as parameters
 {
-    NODE *p1, *p2;
+    NODE *p1, *p2;                                  //p1 = linkedlist1(polynomial 1) ; p2 = linkedlist2(polynomial2)
     float x1, x2, y1, y2, z1, z2, cf1, cf2, cf;
     p1 = h1->link;
     while (p1 != h1)  
